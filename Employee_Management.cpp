@@ -44,9 +44,9 @@ int main()
     Employee rohan;
     Employee sahil;
 
-    sasmit.set_id(1);
-    rohan.set_id(2);
-    sahil.set_id(3);
+    sasmit.set_id(5001);
+    rohan.set_id(5002);
+    sahil.set_id(5003);
 
     sasmit.set_workinghr(200);
     rohan.set_workinghr(280);

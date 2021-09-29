@@ -1,2 +1,2 @@
 # Employee-Management-System
-This Project is Mangagement of Employee of Company. 
+This Project is example of Employee Management System of Company. 

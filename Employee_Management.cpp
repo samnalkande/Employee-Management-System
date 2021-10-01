@@ -21,17 +21,17 @@ public:
 
     void display_progsalary(void)
     {
-        cout << "Employee Salary: " << 100 * workinghr << endl;
+        cout << "Employee's Salary: " << 100 * workinghr << endl;
     }
 
     void display_graphsalary(void)
     {
-        cout << "Employee Salary: " << 90 * workinghr << endl;
+        cout << "Employee's Salary: " << 90 * workinghr << endl;
     }
 
     void display_workinghr(void)
     {
-        cout << "Employee Working Hours: " << workinghr << endl;
+        cout << "Employee's Working Hours: " << workinghr << endl;
     }
 };
 
@@ -44,13 +44,13 @@ int main()
     Employee rohan;
     Employee sahil;
 
-    sasmit.set_id(1001);
-    rohan.set_id(1002);
-    sahil.set_id(1003);
+    sasmit.set_id(5001);
+    rohan.set_id(5002);
+    sahil.set_id(5003);
 
-    sasmit.set_workinghr(300);
-    rohan.set_workinghr(250);
-    sahil.set_workinghr(275);
+    sasmit.set_workinghr(200);
+    rohan.set_workinghr(280);
+    sahil.set_workinghr(255);
 
     for (size_t w = 1; w < 3; i++)
     {
@@ -67,9 +67,9 @@ int main()
                 cout << "----------------------------------------------" << endl;
                 cout << "Employee Management" << endl;
                 cout << "----------------------------------------------" << endl;
-                cout << "1: To View Your Salary As Per Month" << endl;
+                cout << "1: To View Your Salary Per Month" << endl;
                 cout << "2: To View Your Profile" << endl;
-                cout << "3: To View Your Last Month Working Hours" << endl;
+                cout << "3: To View Your Last Month's Working Hours" << endl;
                 cout << "4: To Quit" << endl;
                 cout << "Enter From Options Above" << endl;
                 cin >> i;
